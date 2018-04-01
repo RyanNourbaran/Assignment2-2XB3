@@ -1,0 +1,11 @@
+COMPSCI 2XB3
+Arya Ryan Nourbaran
+001419894
+March 31, 2018. All work done is my on BostonToMinneapolis.java and Tests is my own.
+
+Decisions:
+
+I created my own ADT, BostonToMinneapolis, that contains all the methods and builds required for the assignment.
+This way, I could enter my own data in without having to change much of the original Digraph,DFS and BFS classes.
+In order to run the assignment, simply run the main method in the BostonToMinneapolis class.
+Also, the references library algs4.jar should be used, as many of the classes use this library.

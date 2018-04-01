@@ -1,0 +1,20 @@
+3.1
+The nodes of the grapth represent the cities that are available while the edges represent
+the cities that are connected (ie. Roads). Using the cities in USCities.csv, the nodes of 
+the graph can be put in place. Then, using the connectedCities.csv file, the edges can be 
+inserted.
+In order to find any path from Boston to Minneapolis, either a depth first or beadth first
+path search algorithm can be used.
+
+3.2
+The breadth first searh algorithm found the result in fewer steps. If the number of stops 
+increased, the BFS method would still find fewer steps to the destination versus the DFS.  
+This is because a BFS searches for paths that are as close to the starting node as possible,
+whereas a DFS searches for any path that can connect to the destination, since it goes 
+through all connected nodes first to see if the destination is possible from all nodes. 
+
+3.4
+The complexity of the algorithm is O((v+e) log (v)), where v is the number of verticies and e is the number of edges.
+The complexity of the problem would remain the same if the number of cities, stops, or 
+restaurants increased. This is because graph algorithms are created in such a way that the
+time it takes to run the algorithm is proportional to the inputs given. 
